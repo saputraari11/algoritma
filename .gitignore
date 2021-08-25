@@ -20,3 +20,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+=======
+/ari/node_modules
+/della/node_modules
+della/node_modules
