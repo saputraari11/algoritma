@@ -4,7 +4,7 @@
   "description": "mencoba suatu hal yang baru",
   "main": "oop/1.js",
   "scripts": {
-    "start": "nodemon oop/1.js",
+    "start": "nodemon oop/functionObjek.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

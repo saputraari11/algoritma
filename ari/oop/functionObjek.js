@@ -25,7 +25,17 @@ function Animal(name){
     }
 
 }
+Animal.prototype.drink = function(){
+    return "water"
+}
+function Owner(nameAnimal){
+    this.nameOwn = ''
+    Animal.call(this,nameAnimal)
+}
+
+// const tony = new Owner("cesi")
 const cat = new Animal("cat")
 cat.name = "veron"
 cat.setGender("betina")
 console.log(cat.getGender());
+console.log(cat.drink());
