@@ -1,5 +1,6 @@
 # dependencies
 /Della/fe/node_modules
+/Della/lomba/node_modules
 /.pnp
 .pnp.js
 
