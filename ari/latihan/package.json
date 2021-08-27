@@ -1,0 +1,19 @@
+{
+  "name": "latihan",
+  "version": "1.0.0",
+  "description": "mencoba suatu hal yang baru",
+  "main": "*",
+  "scripts": {
+    "start": "nodemon library/a.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feature/ari/issues"
+  },
+  "homepage": "https://github.com/feature/ari#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
