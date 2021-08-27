@@ -2,9 +2,9 @@
   "name": "latihan",
   "version": "1.0.0",
   "description": "mencoba suatu hal yang baru",
-  "main": "oop/1.js",
+  "main": "*",
   "scripts": {
-    "start": "nodemon oop/functionObjek.js",
+    "start": "nodemon library/a.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
