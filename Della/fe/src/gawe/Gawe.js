@@ -6,6 +6,7 @@ const Gawe = () => {
     return(
         <div>
             <h3>gawe list</h3> 
+            <h3>sknkn</h3>
             <GaweList />
         </div>
     )
