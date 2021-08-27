@@ -21,6 +21,7 @@ yarn-debug.log*
 yarn-error.log*
 
 /ari/node_modules
-=======
 /ari/latihan/node_modules
 /ari/lomba/opi/node_modules/*
+=======
+/amel/lomba/node_modules
