@@ -25,17 +25,32 @@ function Animal(name){
     }
 
 }
-Animal.prototype.drink = function(){
-    return "water"
-}
-function Owner(nameAnimal){
+function Owner(){
     this.nameOwn = ''
-    Animal.call(this,nameAnimal)
+
+    //inherit with Object.call(this)
+    Animal.call(this,"cat")
+    this.callThis = function(){
+        return this
+    }
+
+    this.callName=function(){
+        return 'user'+this.nameOwn
+    }
 }
 
+const ari = new Owner()
+const devi = new Owner()
+//@Overriding
+ari.callName=function(){
+    return this.nameOwn
+}
+ari.nameOwn = "ari"
 // const tony = new Owner("cesi")
 const cat = new Animal("cat")
 cat.name = "veron"
 cat.setGender("betina")
 console.log(cat.getGender());
-console.log(cat.drink());
+console.log(ari.callThis());
+console.log(ari.callName());
+console.log(devi)
