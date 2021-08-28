@@ -9,8 +9,5 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Get("/bnb")
-  getBnb():any{
-    return this.appService.getBnb()
-  }
+ 
 }
