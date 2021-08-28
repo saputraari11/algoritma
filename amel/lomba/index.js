@@ -55,7 +55,7 @@ app.get("/kurir", (req, res) => {
     })
 })
 
-// end-point akses data kurir berdasarkan nama tertentu
+// end-point akses data berdasarkan nama tertentu
 app.get("/kurir/:nama", (req, res) => {
     let data = {
         nama: req.params.nama
